@@ -1,0 +1,28 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
+  "apiVersion": 2,
+  "name": "ckjaersig/example-block",
+  "version": "0.1.0",
+  "title": "Example block",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Custom made block",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  },
+  "textdomain": "ckjaersig-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
