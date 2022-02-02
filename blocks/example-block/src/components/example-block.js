@@ -10,7 +10,7 @@ export const ExampleBlock = ({
     <div
       {...props}
       style={{ backgroundColor: backgroundColor }}
-      className={classNames("ckb-example-block", props.className)}
+      className={classNames("demo-example-block", props.className)}
     >
       <h1>{title}</h1>
       {children}
