@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
   "apiVersion": 2,
-  "name": "ckjaersig/example-block",
+  "name": "demo/example-block",
   "version": "0.1.0",
   "title": "Example block",
   "category": "widgets",
@@ -21,7 +21,7 @@
       "type": "string"
     }
   },
-  "textdomain": "ckjaersig-blocks",
+  "textdomain": "demo-blocks",
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
   "style": "file:./style-index.css"

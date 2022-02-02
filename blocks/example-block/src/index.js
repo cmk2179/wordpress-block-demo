@@ -48,7 +48,7 @@ import { ExampleBlock } from "./components/example-block";
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
-registerBlockType("ckjaersig/example-block", {
+registerBlockType("demo/example-block", {
   /**
    * @see ./edit.js
    */
@@ -73,10 +73,10 @@ registerBlockType("ckjaersig/example-block", {
           <button>B</button>
         </BlockControls>
         <InspectorControls key="setting">
-          <div id="ckjaersig-controls">
+          <div id="demo-controls">
             <fieldset>
               <legend className="blocks-base-control__label">
-                {__("Title", "ckjaersig-blocks")}
+                {__("Title", "demo-blocks")}
               </legend>
               <PlainText
                 value={attributes.title}
@@ -85,7 +85,7 @@ registerBlockType("ckjaersig/example-block", {
             </fieldset>
             <fieldset>
               <legend className="blocks-base-control__label">
-                {__("Background color", "ckjaersig-blocks")}
+                {__("Background color", "demo-blocks")}
               </legend>
               <ColorPalette
                 value={attributes.backgroundColor}
